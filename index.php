@@ -4,9 +4,9 @@ session_start();
 // 数据库配置
 try {
     $host = 'localhost';
-    $dbname = 'chashen';
-    $username = 'chashen';
-    $password = 'MwCanfN5JcEWhaDh';
+    $dbname = '';
+    $username = '';
+    $password = '';
     
     $pdo = new PDO(
         "mysql:host=$host;dbname=$dbname;charset=utf8mb4",
